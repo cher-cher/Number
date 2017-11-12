@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: beda7f1546d915a43a82c09c4c901238
+timeCreated: 1507475478
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Priscillia Script
+  fontNames:
+  - Priscillia Script
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
