@@ -9,6 +9,7 @@ public class DetectClicks : MonoBehaviour
     public Text gameName;
     public Text playTxt;
     public GameObject buttons;
+    public string level;
 
     private bool clicked;
 
@@ -17,11 +18,7 @@ public class DetectClicks : MonoBehaviour
         if (!clicked)
         {
             clicked = true;
-            //gameName.gameObject.SetActive(false);
-            //playTxt.gameObject.SetActive(false);
-            //buttons.GetComponent<ScrollObjects>().speed = -5f;
-            //buttons.GetComponent<ScrollObjects>().checkPos = -140f;
-            SceneManager.LoadScene("level1");
+            SceneManager.LoadScene(level);
         } 
     }
 }

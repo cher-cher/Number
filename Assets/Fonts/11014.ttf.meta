@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 9ca3ab73c5ca8e9418a5fb3dfd69ac79
+timeCreated: 1511897260
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Movus BrushPen C
+  fontNames:
+  - Movus BrushPen C
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

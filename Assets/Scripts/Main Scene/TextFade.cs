@@ -7,6 +7,8 @@ public class TextFade : MonoBehaviour {
 
 	private Text txt;
 	private Outline oLine;
+    
+    public int t;
 	
 	void Start () {
         txt = GetComponent <Text> ();
@@ -14,7 +16,7 @@ public class TextFade : MonoBehaviour {
 	}
 	
 	void Update () {
-		txt.color = new Color(txt.color.r, txt.color.g, txt.color.b, Mathf.PingPong(Time.time / 1.5f, 1.0f));
+		txt.color = new Color(txt.color.r, txt.color.g, txt.color.b, Mathf.PingPong(Time.time / 1.5f, t));
 		oLine.effectColor = new Color(oLine.effectColor.r, oLine.effectColor.g, oLine.effectColor.b, txt.color.a - 0.3f);
 	}
 }
